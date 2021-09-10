@@ -1,6 +1,6 @@
 version: 0.0
 Resources:
-  - myLambdaFunction:
+  - github-to-lambda-production:
       Type: AWS::Lambda::Function
       Properties:
         Name: "github-to-lambda-production"
