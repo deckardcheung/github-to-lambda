@@ -1,9 +1,0 @@
-version: 0.0
-Resources:
-  - github-to-lambda-production:
-      Type: AWS::Lambda::Function
-      Properties:
-        Name: "github-to-lambda-production"
-        Alias: "version"
-        CurrentVersion: "1"
-        TargetVersion: "1"
